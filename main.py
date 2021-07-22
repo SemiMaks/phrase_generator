@@ -1,3 +1,6 @@
+# Для запуска сервера набрать в терминале
+# uvicorn main:app --reload
+
 from fastapi import FastAPI
 from fastapi import HTTPException
 from db import PhraseInput
